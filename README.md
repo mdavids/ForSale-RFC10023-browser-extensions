@@ -80,6 +80,8 @@ extension never sees anything on the pages you visit beyond their URL.
 
 ## Installing on Chromium (unpacked, for local testing)
 
+Download the ZIP-file, unpack it, then...
+
 1. Open `chrome://extensions`.
 2. Turn on **Developer mode** (top right).
 3. Click **Load unpacked**.
