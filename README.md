@@ -77,7 +77,7 @@ This extension requests:
 No content-script or page-content access of any kind is requested — the
 extension never sees anything on the pages you visit beyond their URL.
 
-## Installing (unpacked, for local testing)
+## Installing on Chromium (unpacked, for local testing)
 
 1. Open `chrome://extensions`.
 2. Turn on **Developer mode** (top right).
