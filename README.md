@@ -133,5 +133,5 @@ at the top of the page.
 - No badge/lamp state for anything beyond the top-level frame — iframes
   are intentionally ignored, matching the "just the visited URL, nothing
   else" design goal.
-- Sub domains may go wrong. For example `dynamic.testdns.nl` will be seen as `dynamic.testdns.nl`, just as `www.testdns.nl` would.
+- Sub domains may go wrong. For example `dynamic.testdns.nl` will be seen as `testdns.nl`, just as `www.testdns.nl` would.
 
