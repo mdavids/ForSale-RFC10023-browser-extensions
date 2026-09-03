@@ -133,8 +133,5 @@ at the top of the page.
 - No badge/lamp state for anything beyond the top-level frame — iframes
   are intentionally ignored, matching the "just the visited URL, nothing
   else" design goal.
-- For publishing to the Chrome Web Store: a privacy policy page is
-  effectively required whenever a "broad" permission like `webNavigation`
-  is declared, and the store review form asks for a written justification
-  of each such permission.
+- Sub domains may go wrong. For example `dynamic.testdns.nl` will be seen as `dynamic.testdns.nl`, just as `www.testdns.nl` would.
 
