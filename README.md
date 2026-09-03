@@ -118,3 +118,6 @@ at the top of the page.
   else" design goal.
 - Sub domains may go wrong. For example `dynamic.testdns.nl` will be seen as `testdns.nl`, just as `www.testdns.nl` would.
 
+## Disclaimer
+Although developed with care, this experimental tool is provided “as is”, without guarantees of functionality or availability. Use it at your own risk. No liability is accepted. We may withdraw it at any time without notice.
+
