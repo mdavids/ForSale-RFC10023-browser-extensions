@@ -85,10 +85,11 @@ Download the ZIP-file, unpack it, then...
 1. Open `chrome://extensions`.
 2. Turn on **Developer mode** (top right).
 3. Click **Load unpacked**.
-4. Select this folder (`extension/`, the one containing `manifest.json`).
+4. Select th containing `manifest.json`.
 5. The icon appears in the toolbar, starting grey. Browse normally — it
    turns blue or bright green once a page has been checked. Click any time for
    details.
+6. Pin it to the toolbar.
 
 After editing the code: go to `chrome://extensions` and click the ↻ icon
 to reload. Manifest changes (e.g. permissions) always require a reload. If
