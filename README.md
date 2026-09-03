@@ -1,6 +1,7 @@
 # ForSale-check — RFC 10023 domain checker extension
 
 🧪 Experimental ⚠️
+(developed with AI)
 
 <img src="/screenshot.png" alt="Screenshot" width="300">
 
