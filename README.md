@@ -33,27 +33,8 @@ a TXT lookup from JavaScript. This extension works around that with
 **DNS-over-HTTPS (DoH)**: a plain `fetch()` to Cloudflare's public DoH
 endpoint (`cloudflare-dns.com/dns-query`), which returns the answer as JSON.
 
-`background.js` (a Manifest V3 service worker) listens to
-`chrome.webNavigation` events for the **top-level frame only** — never
-iframes, never page content:
-
-1. **`onBeforeNavigate`** — records the URL the tab is about to navigate to.
-2. **`onCommitted`** — once the navigation lands, compares that start URL
-   with the URL actually committed. If they differ (a redirect happened),
-   both are resolved to **registrable domains** (deduplicated via the
-   `psl` library — so `www.example.nl` and `example.nl` collapse into one,
-   and `example.co.uk` is handled correctly since `.co.uk` is a two-label
-   public suffix) and both get checked. If they resolve to the same
-   domain (e.g. an `http://` → `https://` redirect), only one check runs.
-3. The domain currently being viewed (the last one in that list) drives
-   the lamp color. Every checked domain's detail is available in the popup.
-
-**On redirects and why it's only ever a 2-point chain:** `chrome.webNavigation`
-has no event for individual redirect hops — there is no `onBeforeRedirect`
-on this API (that name exists on the separate, much heavier `webRequest`
-API, which needs a `webRequest` permission plus host access to the sites
-being observed — a poor fit for a "just the visited URL" extension). So a
-navigation that bounces through several redirects before landing is only
+**On redirects and why it's only ever a 2-point chain:** 
+A navigation that bounces through several redirects before landing is only
 ever seen here as *where it started* and *where it ended*, not every
 intermediate hop. For "example.nl redirects to example.org" — the case
 this was built for — that's exactly what's needed; a multi-hop chain would
