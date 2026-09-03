@@ -2,6 +2,8 @@
 
 🧪 Experimental ⚠️
 
+<img src="/screenshot.png" alt="Screenshot" width="300">
+
 ## forsale-check-extension.zip
 
 A minimal Chrome extension (Manifest V3) that checks whether the domain of
