@@ -3,8 +3,8 @@
 🧪 Experimental ⚠️
 (developed with AI)
 
-> [!CAUTION]
-> While this works on Google Chrome, we noticed that it does not on the Chromium instance we tested. We're looking into this.
+> [!NOTE]
+> While this works on Google Chrome, we noticed that it does not on the Chromium instance we tested. This might be a local problem on our end. We're looking into this.
 
 Screenshot:
 
