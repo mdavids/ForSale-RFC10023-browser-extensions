@@ -4,7 +4,7 @@
 (developed with AI)
 
 > [!NOTE]
-> Make sure you have't configured a DNS resolver, either in the OS or in the browser, that blocks cloudflare-dns.com or else it won't work.
+> Make sure you have't configured a DNS resolver, either in the OS or in the browser, that blocks `cloudflare-dns.com` or else it won't work.
 
 Screenshot:
 
