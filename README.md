@@ -3,6 +3,11 @@
 🧪 Experimental ⚠️
 (developed with AI)
 
+> [!CAUTION]
+> While this works on Google Chrome, we noticed that it does not on the Chromium instance we tested. We're looking into this.
+
+Screenshot:
+
 <img src="/screenshot.png" alt="Screenshot" width="300">
 
 ## forsale-check-extension.zip
