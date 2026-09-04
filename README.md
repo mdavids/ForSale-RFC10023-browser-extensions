@@ -4,7 +4,7 @@
 (developed with AI)
 
 > [!NOTE]
-> While this works on Google Chrome, we noticed that it does not on the Chromium instance we tested. This might be a local problem on our end. We're looking into this.
+> Make sure you have't configured a DNS resolver, either in the OS or in the browser, that blocks cloudflare-dns.com or else it won't work.
 
 Screenshot:
 
