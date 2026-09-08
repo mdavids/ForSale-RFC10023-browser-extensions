@@ -8,7 +8,7 @@
 
 Screenshot:
 
-<img src="/screenshot.png" alt="Screenshot" width="300">
+<img src="/screenshot2.png" alt="Screenshot" width="300">
 
 ## forsale-check-extension.zip
 
